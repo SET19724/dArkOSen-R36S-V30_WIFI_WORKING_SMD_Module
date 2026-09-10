@@ -1,5 +1,22 @@
-# For wi-fi module to work copy BOOT folder to BOOT folder on R36S or just files what i change there and select V30
-I add working dtb files and wifi module soldered SMD now works
+# How to Enable the Wi-Fi Module on R36S
+
+I have added the working `.dtb` files. The soldered SMD Wi-Fi module now works!
+
+To get the Wi-Fi module to work, **select V30** and use one of the two methods below:
+
+### Method 1: Folder Copy
+Copy the `BOOT` folder to the `BOOT` partition on your R36S and use selector.bat, or just copy the modified files over.
+
+### Method 2: Overwrite Specific Files
+Alternatively, simply overwrite these two files on your `BOOT` partition with the updated versions below:
+
+* [`rg351mp-uboot.dtb`](https://github.com/SET19724/dArkOSen-R36S-V30_WIFI_WORKING_SMD_Module/blob/main/boot/dtb/r36s/R36S-V30%202025-11-18%202552/rg351mp-uboot.dtb)
+* [`rk3326-r36s-linux.dtb`](https://github.com/SET19724/dArkOSen-R36S-V30_WIFI_WORKING_SMD_Module/blob/main/boot/dtb/r36s/R36S-V30%202025-11-18%202552/rk3326-r36s-linux.dtb)
+
+---
+
+> **Credits:** 
+> Original source of files: [sudowaffles/dtb-r36s-v30-20251811](https://github.com/sudowaffles/dtb-r36s-v30-20251811)
 
 
 
