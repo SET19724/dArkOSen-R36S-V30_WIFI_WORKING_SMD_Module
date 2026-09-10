@@ -1,3 +1,8 @@
+For wi-fi module to work copy BOOT folder to BOOT folder on R36S or just files what i change there and select V30
+I add working dtb files and wifi module soldered SMD now works
+
+
+
 # dArkOSen-R36 for Genuine Devices
 
 <p align="center">
